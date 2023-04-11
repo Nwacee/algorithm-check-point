@@ -1,0 +1,15 @@
+Set lenght to 0
+Set wordCount to 0
+Set vowelCount to 0
+Note vowel is (a,e,i,o,u)
+Read sentence as a string
+For each character in sentence
+Begin
+lenght += 1
+If character is a space then wordCount +=1
+Else if character is a vowel then vowelCount +=1
+Else character is a point then exit the loop
+Print lenght
+Print wordCount + 1
+Print vowelCount
+End
